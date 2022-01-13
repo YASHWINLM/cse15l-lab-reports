@@ -1,6 +1,6 @@
 # How to log into a course-specific account on `ieng6`
 
-1. Installing VS Code
+**Installing VS Code**
 
 * First go to [Visual Studio Code](https://code.visualstudio.com/) and install the VSCode app
 
@@ -9,7 +9,7 @@
 
 
 
-2. Remotely Connecting 
+ **Remotely Connecting**
 
 * If you are on Windows first install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
@@ -28,7 +28,7 @@
 
 
 
-3. Running some commands
+**Running some commands**
 
 * Now try running some commands in your terminal
 
@@ -41,7 +41,7 @@
 ![Image](Screenshot%20(25).png)
 
 
-4. Moving Files with `scp`
+**Moving Files with `scp`**
 
 * `scp` is a command used to copy files from your computer to a remote computer
 
@@ -50,7 +50,7 @@
 ![Image](Screenshot%20(36).png)
 
 
-5. SSH Keys
+**SSH Keys**
 
 * For windows follow [these](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) steps first to set up a key
 
@@ -65,7 +65,7 @@
 
 * This will save you loads of time 
 
-6. Optimizing Remote Running
+**Optimizing Remote Running**
 
 * Here are some commands that can make working on a remote server easier 
 
