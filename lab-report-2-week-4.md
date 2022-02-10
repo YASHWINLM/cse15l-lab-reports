@@ -17,7 +17,7 @@
 
 ![Image](Screenshot%20(40).png)
 
-* The bug was the fact that the code would run an infinite loop due to the fact that it was not checking properly. THis was the symptom of the code, the fact that it was not hadeling -1 properly so it would stall out.
+* The bug was the fact that the code would run an infinite loop due to the fact that it was not checking properly. This was the symptom of the code, the fact that it was not hadeling -1 properly so it would stall out, this was caused by the input of: new empty lines that were causing the code to return -1.
 
 **Second Change**
 
@@ -37,5 +37,5 @@
 
 ![Image](Screenshot%20(42).png)
 
-* The bug was the link being treated as valid when there were parentheses open and closed inside the example link. This was caused by the symptom of the closed parentheses being after the open one beig treated as valid as the if statmentw as ignoring that previously
+* The bug was the link being treated as valid when there were parentheses open and closed inside the example link. This was caused by the symptom of the closed parentheses being after the open one beig treated as valid as the if statmentw as ignoring that previously, meaning that the output was a valid link on the file, when the link should not have been displayed as valid.
 
