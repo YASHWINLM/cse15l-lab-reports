@@ -1,0 +1,1 @@
+#Streamlining ssh configuration
