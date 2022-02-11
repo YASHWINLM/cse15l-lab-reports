@@ -1,7 +1,5 @@
 # Week 4 Lab Report
 
-* NOTE: github wouldn't let me revert to the previous versions so the input couldn't be shown for the last two ones
-
 **First Change**
 
 * infinite loop error 
@@ -27,7 +25,12 @@
 
 * link to bad input [here](https://github.com/jared-hughes/markdown-parse/blob/main/test-unclosed-bracket.md)
 
-* The bug was that the links were not showns properly when there was a '(' that was mismatched without a ')' to close it. THis was caused by the symptom of the list not continuing and the link being treated as valid with an open and no closed parentheses if there was a open parentheses without a closed on, that was not being handeled correctly
+* The bug was that the links were not showns properly when there was a '(' that was mismatched without a ')' to close it. THis was caused by the symptom of the list not continuing and the link not being treated as valid with an open and no closed parentheses if there was a open parentheses without a closed on, that was not being handeled correctly
+
+* second link not showing up due to the unclosed (
+
+    ![Image](Screenshot%20(53).png)
+
 
 **Third Change**
 
@@ -37,5 +40,9 @@
 
 ![Image](Screenshot%20(42).png)
 
-* The bug was the link being treated as valid when there were parentheses open and closed inside the example link. This was caused by the symptom of the closed parentheses being after the open one beig treated as valid as the if statmentw as ignoring that previously, meaning that the output was a valid link on the file, when the link should not have been displayed as valid.
+* The bug was the link being treated as valid when there were parentheses open and closed inside the example link. This was caused by the symptom of the closed parentheses being after the open one beig treated as valid as the if statment was ignoring that previously, meaning that the output was a valid link on the file, when the link should not have been displayed at all
 
+
+* incorrectly displayed link with () in it
+
+![Image](Screenshot%20(54).png)
